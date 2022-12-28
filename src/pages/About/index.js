@@ -6,7 +6,8 @@ const About = () => {
     return (
         <ModelPost
             image={imageCover}
-            title='Sobre mim'>
+            title='Sobre mim'
+            posts={[]}>
                 
             <h3 className={styles.subtitulo}>
                 Olá, eu sou o Mauricio!
